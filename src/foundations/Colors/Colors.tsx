@@ -1,6 +1,8 @@
 enum Colors {
   PRIMARY = "#F48221",
   SECONDARY = "#ff6839",
+  BLACK = "black",
+  WHITE = "white",
   DARK_GRAY = "#333",
   GRAY = "#888",
   LIGHT_GRAY = "#949494",
