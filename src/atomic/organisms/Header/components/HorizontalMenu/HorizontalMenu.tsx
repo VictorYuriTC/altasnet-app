@@ -1,7 +1,7 @@
 import { SetStateAction } from "react";
 import { Search } from "react-bootstrap-icons";
 import { Col, Row } from "reactstrap";
-import HeaderLink from "../Header/components/HeaderLink/HeaderLink";
+import HeaderLink from "../HeaderLink/HeaderLink";
 
 interface IHorizontalMenu {
   setIsSearchInputDisplayed: React.Dispatch<SetStateAction<boolean>>;

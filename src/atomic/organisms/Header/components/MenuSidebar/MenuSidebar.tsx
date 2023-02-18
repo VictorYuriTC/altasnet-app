@@ -1,7 +1,7 @@
 import { Dispatch, SetStateAction } from "react";
 import { X } from "react-bootstrap-icons";
 import { Col } from "reactstrap";
-import Colors from "../../../foundations/Colors/Colors";
+import Colors from "../../../../../foundations/Colors/Colors";
 import MenuSidebarLink from "./components/MenuSidebarLink";
 
 interface IMenuSidebar {

@@ -4,9 +4,9 @@ import { Col, Container, Row } from "reactstrap";
 import Colors from "../../../foundations/Colors/Colors";
 import useWindowDimensions from "../../../hooks/useWindowDimensions";
 import altasNetLogo from "../../../imgs/altas-net-logo.png";
-import HamburguerMenu from "../HamburguerMenu/HamburguerMenu";
-import HorizontalMenu from "../HorizontalMenu/HorizontalMenu";
-import MenuSidebar from "../MenuSidebar/MenuSidebar";
+import HamburguerMenu from "./components/HamburguerMenu/HamburguerMenu";
+import HorizontalMenu from "./components/HorizontalMenu/HorizontalMenu";
+import MenuSidebar from "./components/MenuSidebar/MenuSidebar";
 import HeaderLink from "./components/HeaderLink/HeaderLink";
 
 function Header() {
