@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import WhatsAppContactIcon from "../atomic/molecules/WhatsAppContactIcon";
 import Header from "../atomic/organisms/Header/Header";
 import Home from "../atomic/pages/Home/Home";
 
@@ -9,6 +10,7 @@ export default function Linking() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <WhatsAppContactIcon />
     </>
   );
 }
