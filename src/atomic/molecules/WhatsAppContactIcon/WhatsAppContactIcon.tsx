@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Whatsapp } from "react-bootstrap-icons";
-import Colors from "../../foundations/Colors/Colors";
+import Colors from "../../../foundations/Colors/Colors";
 
 function WhatsAppContactIcon() {
   const WHATSAPP_COLOR = "#25D366";

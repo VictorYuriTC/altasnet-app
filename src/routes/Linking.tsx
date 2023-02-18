@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import WhatsAppContactIcon from "../atomic/molecules/WhatsAppContactIcon";
+import WhatsAppContactIcon from "../atomic/molecules/WhatsAppContactIcon/WhatsAppContactIcon";
 import Header from "../atomic/organisms/Header/Header";
 import Home from "../atomic/pages/Home/Home";
 
