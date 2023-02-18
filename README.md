@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Altasnet Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<details>
+<summary>Português</summary>
+<br>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+- **Objetivo**:
+  - Este repositório foi gerado com o intuito de recriar algumas páginas do site oficial da [Altasnet](https://altasnet.com.br/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Desenvolvido com**:
+  - React.js
+  - TypeScript
+  - Atomic Design
+  - Bootstrap, Reactstrap e Inline CSS
+  - Outros pacotes instalados: `react-router-dom` e `react-bootstrap-icons`
+  - Alegria :technologist:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Como posso rodar o projeto?**
+  <details>
 
-### `npm test`
+  <summary>Ubuntu</summary>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - Pressione `CTRL+ALT+T` para abrir seu terminal
+  - No terminal, digite `cd ~ && mkdir victor-camargo-projects && cd victor-camargo-projects && git clone git@github.com:VictorYuriTC/altasnet-app.git && cd altasnet && npm start` e pressione `Enter`
+  - Por padrão, o projeto rodará no `http://localhost:3000/`. Se está porta já estiver em uso, o project verificará e usará uma porta subsequente
+  - De qualquer formna, o projeto rodará automaticamente no `http://localhost:{port-being-used}/` no seu navegador. Então, você poderá se divertir com o `Altasnet Clone`.
+  - Tenha uma ótima navegação! :rocket:
+  </details>
 
-### `npm run build`
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- - - -
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>English</summary>
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Goal**:
+  - This repo was built in order to recreate some [Altasnet](https://altasnet.com.br/) official website pages
 
-### `npm run eject`
+- **Developed using**:
+  - React.js
+  - TypeScript
+  - Atomic Design
+  - Bootstrap, Reactstrap and Inline CSS
+  - Other installed packages: `react-router-dom` e `react-bootstrap-icons`
+  - Joy :technologist:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **How can I run the project?**
+  <details>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <summary>Ubuntu</summary>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  - Press `CTRL+ALT+T` to open your terminal
+  - On terminal, type `cd ~ && mkdir victor-camargo-projects && cd victor-camargo-projects && git clone git@github.com:VictorYuriTC/altasnet-app.git && cd altasnet && npm start` and press `Enter`
+  - As default, the project will run on `http://localhost:3000/`. If this port is already being used, the project will check and use a following port
+  - In any case, the project wil be automatically opened on `http://localhost:{port-being-used}/` in your browser. Then, you will allowed to enjoy and play around with the `Altasnet Clone`
+  - Enjoy it! :rocket:
+  </details>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+</details>
