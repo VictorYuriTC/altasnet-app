@@ -12,14 +12,16 @@ function WhatsAppContactIcon() {
       rel="noreferrer"
       className="d-flex align-items-center position-fixed bottom-0 end-0 d-flex text-decoration-none"
       onMouseEnter={() => setIsHoveringWhatsApp(true)}
-      onMouseLeave={() => setIsHoveringWhatsApp(false)}>
+      onMouseLeave={() => setIsHoveringWhatsApp(false)}
+      style={{
+        zIndex: "150",
+      }}>
       {
         <div
           style={{
             backgroundColor: WHATSAPP_COLOR,
             borderRadius: "1em",
             height: "2em",
-            zIndex: "150",
             marginBottom: "1em",
             color: Colors.WHITE,
             opacity: isHoveringWhatsApp ? "1.0" : "0",
@@ -37,7 +39,6 @@ function WhatsAppContactIcon() {
           backgroundColor: WHATSAPP_COLOR,
           borderRadius: "1em",
           padding: "0.5em",
-          zIndex: "150",
           marginRight: "1em",
           marginBottom: "1em",
         }}
