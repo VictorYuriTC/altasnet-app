@@ -14,7 +14,7 @@ function Home({}) {
         style={{
           zIndex: "25",
           backgroundImage: `url(${homePageLandingBg})`,
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           backgroundPosition: "60% 0%",
           backgroundRepeat: "no-repeat",
           height: bgImgSize.height,
