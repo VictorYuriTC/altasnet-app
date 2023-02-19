@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import useWindowDimensions from "../../../../hooks/useWindowDimensions";
+import useWindowDimensions from "../../../../../hooks/useWindowDimensions";
 
 function useLandingBgImgSize() {
   const windowSize = useWindowDimensions();

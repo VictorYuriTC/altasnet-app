@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Colors from "../../../../foundations/Colors/Colors";
-import ISolutionCard from "../interfaces/ISolutionCard";
+import Colors from "../../../../../foundations/Colors/Colors";
+import ISolutionCard from "./ISolutionCard";
 import useSolutionCardAnimation from "./useSolutionCardAnimation";
 
 interface IProps {
