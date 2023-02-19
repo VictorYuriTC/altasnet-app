@@ -9,9 +9,11 @@ interface IProps {
 }
 
 function SolutionCard({ solution, index }: IProps) {
-  const { ref, solutionCardAnimation } = useSolutionCardAnimation({
-    solutionCardIndex: index,
-  });
+  const { ref, solutionCardAnimation, isInViewport } = useSolutionCardAnimation(
+    {
+      solutionCardIndex: index,
+    }
+  );
   return (
     <div
       className="offset-1 col-xs-10 offset-sm-0 col-md-4"
@@ -19,6 +21,7 @@ function SolutionCard({ solution, index }: IProps) {
       style={{
         backgroundColor: "white",
         ...solutionCardAnimation,
+        position: isInViewport ? "static" : "absolute",
       }}>
       <div
         style={{ backgroundColor: "#f2f5f9", height: "100%" }}

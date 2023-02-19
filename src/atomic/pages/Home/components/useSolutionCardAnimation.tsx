@@ -62,6 +62,7 @@ export default function useSolutionCardAnimation({
 
   return {
     solutionCardAnimation,
+    isInViewport,
     ref,
   };
 }
