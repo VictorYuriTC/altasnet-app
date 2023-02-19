@@ -1,10 +1,10 @@
-import ISolutionCard from "../interfaces/ISolutionCard";
-import networkSolutionImg from "../../../../imgs/network.png";
-import securityImg from "../../../../imgs/security.png";
-import dataCenterImg from "../../../../imgs/data-center.png";
-import applicationServicesImg from "../../../../imgs/application-services.png";
-import digitalWorkflowImg from "../../../../imgs/digital-workflow.png";
-import sgaImg from "../../../../imgs/sga.png";
+import ISolutionCard from "./ISolutionCard";
+import networkSolutionImg from "../../../../../imgs/network.png";
+import securityImg from "../../../../../imgs/security.png";
+import dataCenterImg from "../../../../../imgs/data-center.png";
+import applicationServicesImg from "../../../../../imgs/application-services.png";
+import digitalWorkflowImg from "../../../../../imgs/digital-workflow.png";
+import sgaImg from "../../../../../imgs/sga.png";
 
 export default function useSolutionsData(): ISolutionCard[] {
   return [

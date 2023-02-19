@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import useIsInViewport from "../../../../hooks/useIsInViewport";
+import useIsInViewport from "../../../../../hooks/useIsInViewport";
 
 interface IProps {
   solutionCardIndex: number;

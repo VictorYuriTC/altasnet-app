@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Colors from "../../../../foundations/Colors/Colors";
-import ISolutionCard from "../interfaces/ISolutionCard";
+import Colors from "../../../../../foundations/Colors/Colors";
+import ISolutionCard from "./ISolutionCard";
 import useSolutionCardAnimation from "./useSolutionCardAnimation";
 
 interface IProps {
@@ -16,7 +16,7 @@ function SolutionCard({ solution, index }: IProps) {
   );
   return (
     <div
-      className="offset-1 col-10 offset-md-0 col-md-4"
+      className="offset-2 col-8 offset-md-0 col-md-4"
       ref={ref}
       style={{
         backgroundColor: "white",
