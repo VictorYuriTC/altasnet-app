@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import useIsInViewport from "../../../../../hooks/useIsInViewport";
 
-export default function useSolutionCardAnimation() {
+export default function useServiceThoughtfulManAnimation() {
   const { isInViewport, ref } = useIsInViewport();
-  const [solutionCardAnimation, setSolutionCardAnimation] = useState(
-    getInitialSolutionCardAnimaton()
-  );
+  const [serviceThoughtfulManAnimation, setServiceThoughtfulManAnimation] =
+    useState(getInitialSolutionCardAnimaton());
 
   function getInitialSolutionCardAnimaton() {
     return {
@@ -15,7 +14,7 @@ export default function useSolutionCardAnimation() {
     };
   }
 
-  function getFinalSolutionCardAnimation() {
+  function getFinalServiceThoughtfulManAnimation() {
     return {
       translate: "0em 0em",
       transition: "1000ms",
@@ -25,11 +24,12 @@ export default function useSolutionCardAnimation() {
 
   useEffect(() => {
     if (!isInViewport) return;
-    if (isInViewport) setSolutionCardAnimation(getFinalSolutionCardAnimation());
+    if (isInViewport)
+      setServiceThoughtfulManAnimation(getFinalServiceThoughtfulManAnimation());
   }, [isInViewport]);
 
   return {
-    solutionCardAnimation,
+    serviceThoughtfulManAnimation,
     isInViewport,
     ref,
   };

@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import { Col, Row } from "reactstrap";
 import Colors from "../../../../../foundations/Colors/Colors";
 import servicesThoughtfulMan from "../../../../../imgs/services-thoughtful-man.png";
-import useSolutionCardAnimation from "./useServiceThoughtfulManAnimation";
+import useServiceThoughtfulManAnimation from "./useServiceThoughtfulManAnimation";
 
 function ServicesRow() {
-  const { isInViewport, ref, solutionCardAnimation } =
-    useSolutionCardAnimation();
+  const { isInViewport, ref, serviceThoughtfulManAnimation } =
+    useServiceThoughtfulManAnimation();
   return (
     <Row
       className="gx-4 gy-5 px-0 px-md-3 px-lg-5"
@@ -75,7 +75,7 @@ function ServicesRow() {
         <div
           ref={ref}
           style={{
-            ...solutionCardAnimation,
+            ...serviceThoughtfulManAnimation,
             position: isInViewport ? "static" : "absolute",
           }}>
           <img
