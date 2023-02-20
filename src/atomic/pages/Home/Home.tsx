@@ -3,6 +3,7 @@ import Colors from "../../../foundations/Colors/Colors";
 import LandingImageRow from "./rows/LandingImageRow/LandingImageRow";
 import ServicesRow from "./rows/ServicesRow/ServicesRow";
 import SolutionsRow from "./rows/SolutionsRows/SolutionsRows";
+import SuccessCasesRow from "./rows/SuccessCasesRow/SuccessCasesRow";
 
 function Home() {
   return (
@@ -15,13 +16,7 @@ function Home() {
         <ServicesRow />
       </Container>
 
-      <div>
-        <span style={{ color: Colors.PRIMARY }}>Primary</span>
-        <span style={{ color: Colors.SECONDARY }}>Secondary</span>
-        <span style={{ color: Colors.DARK_GRAY }}>Dark Gray</span>
-        <span style={{ color: Colors.GRAY }}>Gray</span>
-        <span style={{ color: Colors.LIGHT_GRAY }}>Light gray</span>
-      </div>
+      <SuccessCasesRow />
     </Container>
   );
 }
