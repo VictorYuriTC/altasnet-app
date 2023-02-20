@@ -4,8 +4,12 @@ import FooterLink from "./FooterLink";
 import altasnetLogo from "../../../imgs/altas-net-logo.png";
 import { ChevronUp, Linkedin, Rss } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function Footer() {
+  const [isHoveringLinkedin, setIsHoveringLinkedin] = useState(false);
+  const [isHoveringRss, setIsHoveringRss] = useState(false);
+
   function handleOnClickChevronUp() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -42,6 +46,7 @@ function Footer() {
             </p>
           </div>
         </Col>
+
         <Col md={{ size: 3 }}>
           <div className="d-flex flex-column gap-2">
             <h5 style={{ fontWeight: "900" }}>Soluções</h5>
@@ -56,6 +61,7 @@ function Footer() {
             <FooterLink to="/digital-workflow" text="Digital Workflow" />
           </div>
         </Col>
+
         <Col md={{ size: 3 }}>
           <div className="d-flex flex-column gap-2">
             <h5 style={{ fontWeight: "900" }}>Serviços</h5>
@@ -67,6 +73,7 @@ function Footer() {
             <FooterLink to="/it-as-a-service" text="IT as a Service" />
           </div>
         </Col>
+
         <Col md={{ size: 3 }}>
           <div className="d-flex flex-column gap-2">
             <h5 style={{ fontWeight: "900" }}>MSSP</h5>
@@ -92,11 +99,31 @@ function Footer() {
           <div className="d-flex justify-content-between gap-5">
             <div className="d-flex gap-3">
               <a href="https://www.linkedin.com/company/altasnet/">
-                <Linkedin width={16} height={16} style={{ fill: "#606060" }} />
+                <Linkedin
+                  width={16}
+                  height={16}
+                  style={{ fill: isHoveringLinkedin ? "#808080" : "#606060" }}
+                  onMouseEnter={() => {
+                    setIsHoveringLinkedin(true);
+                  }}
+                  onMouseLeave={() => {
+                    setIsHoveringLinkedin(false);
+                  }}
+                />
               </a>
 
               <a href="https://altasnet.com.br/feed/">
-                <Rss width={16} height={16} style={{ fill: "#606060" }} />
+                <Rss
+                  width={16}
+                  height={16}
+                  style={{ fill: isHoveringRss ? "#808080" : "#606060" }}
+                  onMouseEnter={() => {
+                    setIsHoveringRss(true);
+                  }}
+                  onMouseLeave={() => {
+                    setIsHoveringRss(false);
+                  }}
+                />
               </a>
             </div>
 
