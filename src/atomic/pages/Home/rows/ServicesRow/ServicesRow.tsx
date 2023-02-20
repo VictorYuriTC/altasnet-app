@@ -14,7 +14,7 @@ function ServicesRow() {
         paddingTop: "8em",
       }}>
       <Col xs={{ offset: 2, size: 8 }} md={{ offset: 0, size: 6 }}>
-        <div className="d-flex flex-column gap-4">
+        <div className="d-flex flex-column gap-4" style={{ width: "78%" }}>
           <small
             style={{
               color: "#838383",
@@ -22,6 +22,7 @@ function ServicesRow() {
             }}>
             SERVIÇOS
           </small>
+
           <h2
             style={{
               color: Colors.BLACK,
@@ -39,6 +40,8 @@ function ServicesRow() {
           <p
             style={{
               color: "#949494",
+              fontSize: "1.2em",
+              lineHeight: "2em",
             }}>
             Contamos com profissionais certificados e qualificados para atender
             de forma personalizada, levando soluções necessárias para melhoria
@@ -48,6 +51,8 @@ function ServicesRow() {
           <p
             style={{
               color: "#949494",
+              fontSize: "1.2em",
+              lineHeight: "2em",
             }}>
             Todos os serviços prestados pela nossa empresa respeitam as normas e
             condutas necessárias para fornecer a melhor solução para o negócio
@@ -58,12 +63,12 @@ function ServicesRow() {
             to="/servicos"
             style={{
               backgroundColor: Colors.BLACK,
-              width: "calc(10em + 9vw)",
+              width: "calc(16em + 0.3vw)",
               color: Colors.WHITE,
               borderRadius: "28px",
-              fontSize: "calc(14px + 0.2vw)",
-              padding:
-                "calc(0.3em + 0.1vw) calc(0.5em + 0.1vw) calc(0.3em + 0.1vw) calc(0.5em + 0.1vw)",
+              fontSize: "calc(14px + 0.3vw)",
+              padding: "0.8em 0.5em 0.8em 0.5em",
+              fontWeight: "500",
             }}
             className="text-decoration-none text-center text-nowrap">
             Conheça nossos serviços
@@ -71,12 +76,15 @@ function ServicesRow() {
         </div>
       </Col>
 
-      <Col xs={{ offset: 2, size: 8 }} md={{ offset: 0, size: 6 }}>
+      <Col
+        xs={{ offset: 2, size: 8 }}
+        md={{ offset: 0, size: 6 }}
+        style={{ position: isInViewport ? "static" : "absolute" }}
+        className="d-flex align-items-center">
         <div
           ref={ref}
           style={{
             ...serviceThoughtfulManAnimation,
-            position: isInViewport ? "static" : "absolute",
           }}>
           <img
             src={servicesThoughtfulMan}
