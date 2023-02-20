@@ -16,7 +16,7 @@ function SolutionCard({ solution, index }: IProps) {
   );
   return (
     <div
-      className="offset-2 col-8 offset-md-0 col-md-4"
+      className="offset-0 col-12 offset-sm-1 col-sm-10 offset-lg-0 col-lg-4"
       ref={ref}
       style={{
         backgroundColor: "white",

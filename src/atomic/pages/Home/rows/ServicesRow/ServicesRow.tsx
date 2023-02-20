@@ -9,11 +9,14 @@ function ServicesRow() {
     useServiceThoughtfulManAnimation();
   return (
     <Row
-      className="gx-4 gy-5 px-0 px-md-3 px-lg-5"
+      className="gx-4 gy-5 px-0 px-md-3 px-lg-5 d-flex justify-content-center"
       style={{
         paddingTop: "8em",
       }}>
-      <Col xs={{ offset: 2, size: 8 }} md={{ offset: 0, size: 6 }}>
+      <Col
+        xs={{ offset: 0, size: 12 }}
+        sm={{ offset: 1, size: 10 }}
+        lg={{ offset: 0, size: 6 }}>
         <div className="d-flex flex-column gap-4" style={{ width: "78%" }}>
           <small
             style={{
