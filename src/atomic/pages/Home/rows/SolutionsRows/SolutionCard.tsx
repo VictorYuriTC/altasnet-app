@@ -69,7 +69,7 @@ function SolutionCard({ solution, index }: IProps) {
             fontSize: "calc(17.5px + 0.1vw)",
             lineHeight: "180%",
           }}
-          className="text-center">
+          className="text-center p-3">
           {solution.text}
         </p>
 
