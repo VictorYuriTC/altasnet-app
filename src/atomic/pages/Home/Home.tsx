@@ -9,9 +9,11 @@ function Home() {
     <Container fluid style={{ translate: "0em -4em" }}>
       <LandingImageRow />
 
-      <SolutionsRow />
+      <Container fluid style={{ padding: "0em 2.5em 0em 2.5em" }}>
+        <SolutionsRow />
 
-      <ServicesRow />
+        <ServicesRow />
+      </Container>
 
       <div>
         <span style={{ color: Colors.PRIMARY }}>Primary</span>

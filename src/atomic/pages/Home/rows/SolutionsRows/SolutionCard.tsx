@@ -24,8 +24,12 @@ function SolutionCard({ solution, index }: IProps) {
         position: isInViewport ? "static" : "absolute",
       }}>
       <div
-        style={{ backgroundColor: "#f2f5f9", height: "100%" }}
-        className="d-flex flex-column align-items-center gap-3 position-relative">
+        style={{
+          backgroundColor: "#f2f5f9",
+          height: "100%",
+          padding: "0em 2em 0em 2em",
+        }}
+        className="d-flex flex-column align-items-center position-relative">
         <div
           style={{
             height: "6px",
@@ -36,11 +40,11 @@ function SolutionCard({ solution, index }: IProps) {
         />
         <Link
           to={solution.to}
-          className="d-flex flex-column justify-content-center align-items-center text-decoration-none w-100">
+          className="d-flex flex-column justify-content-center align-items-center text-decoration-none w-100 gap-4 pt-5 pb-3">
           <img
             src={solution.image}
             alt={`${solution.title} svg.`}
-            className="pt-4"
+            className=""
             style={{
               width: "auto",
               height: "auto",
@@ -49,7 +53,7 @@ function SolutionCard({ solution, index }: IProps) {
 
           <h4
             style={{
-              fontSize: "30px",
+              fontSize: "calc(25px + 0.1vw)",
               fontWeight: "900",
               color: Colors.BLACK,
             }}
@@ -62,8 +66,8 @@ function SolutionCard({ solution, index }: IProps) {
           style={{
             color: "#5A5B5D",
             fontWeight: "500",
-            lineHeight: "200%",
-            padding: "0em 1em 0em 1em",
+            fontSize: "calc(17.5px + 0.1vw)",
+            lineHeight: "180%",
           }}
           className="text-center">
           {solution.text}
