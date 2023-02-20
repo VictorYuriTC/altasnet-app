@@ -1,8 +1,8 @@
 import { Container } from "reactstrap";
-import Colors from "../../../foundations/Colors/Colors";
 import LandingImageRow from "./rows/LandingImageRow/LandingImageRow";
 import ServicesRow from "./rows/ServicesRow/ServicesRow";
 import SolutionsRow from "./rows/SolutionsRows/SolutionsRows";
+import StrategicAlliancesRow from "./rows/StrategicalAlliancesRow/StrategicalAlliancesRow";
 import SuccessCasesRow from "./rows/SuccessCasesRow/SuccessCasesRow";
 
 function Home() {
@@ -17,6 +17,8 @@ function Home() {
       </Container>
 
       <SuccessCasesRow />
+
+      <StrategicAlliancesRow />
     </Container>
   );
 }
