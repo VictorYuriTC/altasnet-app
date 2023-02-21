@@ -1,4 +1,5 @@
 import { Container } from "reactstrap";
+import ArticlesRow from "./rows/ArticlesRow/ArticlesRow";
 import LandingImageRow from "./rows/LandingImageRow/LandingImageRow";
 import ServicesRow from "./rows/ServicesRow/ServicesRow";
 import SolutionsRow from "./rows/SolutionsRows/SolutionsRows";
@@ -17,6 +18,8 @@ function Home() {
       </Container>
 
       <SuccessCasesRow />
+
+      <ArticlesRow />
 
       <StrategicAlliancesRow />
     </Container>
