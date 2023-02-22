@@ -1,9 +1,12 @@
 import { Col, Row } from "reactstrap";
 import ArticleCard from "./cards/ArticleCard/ArticleCard";
 import useArticlesData from "./hooks/useArticlesData";
+import useArticlesRowPadding from "./hooks/useArticlesRowPadding";
 
 function ArticlesRow() {
   const articlesData = useArticlesData();
+  const articlesRowPadding = useArticlesRowPadding();
+
   return (
     <>
       <Row
@@ -23,7 +26,7 @@ function ArticlesRow() {
         </Col>
       </Row>
 
-      <Row style={{ padding: "0em 6em 0em 6em" }}>
+      <Row style={{ padding: articlesRowPadding }}>
         {articlesData.map((article) => (
           <ArticleCard article={article} />
         ))}
