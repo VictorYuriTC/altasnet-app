@@ -1,6 +1,7 @@
 import useWindowDimensions from "../../../../../hooks/useWindowDimensions";
+import ISize from "../../../../../interfaces/ISize";
 
-export default function useLogoSize() {
+export default function useLogoSize(): ISize {
   const windowSize = useWindowDimensions();
 
   if (windowSize.width >= 1240) {

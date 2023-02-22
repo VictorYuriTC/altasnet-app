@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import useWindowDimensions from "../../../../../hooks/useWindowDimensions";
+import ISize from "../../../../../interfaces/ISize";
 
-function useLandingBgImgSize() {
+function useLandingBgImgSize(): ISize {
   const windowSize = useWindowDimensions();
   const [bgImgSize, setBgImgSize] = useState({
     width: "",
