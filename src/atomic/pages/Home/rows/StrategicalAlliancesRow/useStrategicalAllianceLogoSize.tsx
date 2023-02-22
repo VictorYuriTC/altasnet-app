@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import useWindowDimensions from "../../../../../hooks/useWindowDimensions";
+import ISize from "../../../../../interfaces/ISize";
 
-function useStrategicalAllianceLogoSize() {
+function useStrategicalAllianceLogoSize(): ISize {
   const { width } = useWindowDimensions();
 
   const [logoSize, setLogoSize] = useState(getLogoSize());

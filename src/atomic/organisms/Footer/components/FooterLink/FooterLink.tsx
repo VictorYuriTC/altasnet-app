@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Colors from "../../../foundations/Colors/Colors";
+import Colors from "../../../../../foundations/Colors/Colors";
 
 interface IFooterLink {
   to: string;
