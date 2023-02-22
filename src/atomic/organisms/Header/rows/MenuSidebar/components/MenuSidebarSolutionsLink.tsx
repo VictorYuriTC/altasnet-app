@@ -43,6 +43,12 @@ function MenuSidebarSolutionsLink({
             height={24}
             className="position-absolute me-2"
             style={{ translate: "0em -1.5em" }}
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+              e.nativeEvent.stopImmediatePropagation();
+              setIsHoveringSolutions(true);
+            }}
           />
         )}
 
