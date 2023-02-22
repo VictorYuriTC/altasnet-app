@@ -10,7 +10,7 @@ function useBgImgTextAnimation() {
   useEffect(() => {
     setTimeout(() => {
       setBgTextAnimation({
-        translate: "0em 12em",
+        translate: "0em 10em",
         opacity: "1.0",
         transition: "1500ms",
       });
