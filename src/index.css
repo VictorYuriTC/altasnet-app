@@ -3,3 +3,9 @@
   margin: 0;
   font-family: "Poppins", Arial, Tahoma, sans-serif;
 }
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
