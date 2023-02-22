@@ -50,9 +50,8 @@ function MenuSidebar({
           to="/solucoes"
           text="Soluções"
           isHoveringSolutions={isHoveringSolutions}
-          setIsHoveringSolutions={
-            setIsHoveringSolutions
-          }></MenuSidebarSolutionsLink>
+          setIsHoveringSolutions={setIsHoveringSolutions}
+        />
 
         {isHoveringSolutions && (
           <div
