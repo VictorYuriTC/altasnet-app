@@ -10,8 +10,8 @@ interface IArticleCard {
 function ArticleCard({ article }: IArticleCard) {
   return (
     <Col
-      xs={{ offset: 1, size: 10 }}
-      md={{ offset: 0, size: 4 }}
+      xs={{ size: 12 }}
+      md={{ size: 4 }}
       className="d-flex flex-column justify-content-between pb-4">
       <ArticleHeader article={article} />
 

@@ -15,11 +15,11 @@ function SuccessCasesRow() {
         marginTop: "6em",
       }}>
       <Col
-        xs={{ offset: 4, size: 6 }}
-        sm={{ offset: 5, size: 5 }}
-        md={{ offset: 5, size: 5 }}
-        lg={{ offset: 6, size: 4 }}
-        xl={{ offset: 7, size: 3 }}
+        xs={{ offset: 3, size: 8 }}
+        sm={{ offset: 4, size: 7 }}
+        md={{ offset: 5, size: 6 }}
+        lg={{ offset: 6, size: 5 }}
+        xl={{ offset: 7, size: 4 }}
         className="d-flex flex-column justify-content-center">
         <p
           style={{
