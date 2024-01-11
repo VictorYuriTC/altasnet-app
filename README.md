@@ -1,5 +1,6 @@
 # Altasnet Clone
 
+- Business landing page based on Altasnet website - a Brazilian IT company. Built with React, TypeScript, Bootstrap, Reactstrap and CSS.
 - Deploy: https://altasnet-ehamnntnq-victoryuritc.vercel.app/
 
 <details>
