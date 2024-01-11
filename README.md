@@ -1,15 +1,13 @@
 # Altasnet Clone
 
-- Built with React, TypeScript, Bootstrap, Reactstrap and CSS.
-- Business landing page based on Altasnet website - a Brazilian IT company.
-- Deploy: https://altasnet-ehamnntnq-victoryuritc.vercel.app/
 
 <details>
 <summary>English</summary>
 <br>
 
-- **Goal**:
-  - This repo was built in order to recreate some [Altasnet](https://altasnet.com.br/) official website pages
+- **About**
+  - Check the app here: https://altasnet-ehamnntnq-victoryuritc.vercel.app/
+  - Business landing page based on [Altasnet](https://altasnet.com.br/) website - a Brazilian IT company.
 
 - **Developed using**:
   - React.js
@@ -48,8 +46,9 @@
 <summary>Português</summary>
 <br>
 
-- **Objetivo**:
-  - Este repositório foi gerado com o intuito de recriar algumas páginas do site oficial da [Altasnet](https://altasnet.com.br/)
+- **Sobre**
+  - Teste o app aqui: https://altasnet-ehamnntnq-victoryuritc.vercel.app/
+  - Landing page de empresa de negócios baseada no site da [Altasnet](https://altasnet.com.br/) - empresa brasileira de TI.
 
 - **Desenvolvido com**:
   - React.js
